@@ -1,0 +1,10 @@
+.btn {
+  width: 100%;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  border: none;
+  color: var(--color-white);
+  background-color: var(--color-theme-main);
+}

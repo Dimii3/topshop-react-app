@@ -1,0 +1,16 @@
+.hero {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+.contentWrapper {
+  margin-top: 5rem;
+  padding: 5rem 3rem;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contentWrapper p {
+  margin: 1rem 0;
+}
