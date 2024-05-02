@@ -3,4 +3,5 @@
   gap: 1rem;
   width: 100%;
   max-width: 100rem;
+  align-items: flex-start;
 }

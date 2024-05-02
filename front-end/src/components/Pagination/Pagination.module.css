@@ -1,0 +1,12 @@
+.pages {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  font-size: 1.1rem;
+}
+
+.pages li {
+  cursor: pointer;
+}

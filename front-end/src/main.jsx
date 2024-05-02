@@ -6,11 +6,12 @@ import "./styles/globals.css";
 import MainPage from "./views/MainPage/MainPage.jsx";
 import Favourites from "./views/Favourites/Favourites.jsx";
 import Cart from "./views/Cart/Cart.jsx";
+import ProductsList from "./views/ProductsList/ProductsList.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Cart></Cart>,
+    element: <ProductsList></ProductsList>,
   },
 ]);
 

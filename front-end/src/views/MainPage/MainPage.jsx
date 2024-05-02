@@ -86,7 +86,10 @@ export default function MainPage() {
   return (
     <Layout>
       <Hero heroImage={COVER_PHOTO}></Hero>
-      <Bestsellers products={items}></Bestsellers>
+      <Bestsellers
+        headerText="Sprawdź nasze bestsellery!"
+        products={items}
+      ></Bestsellers>
     </Layout>
   );
 }
