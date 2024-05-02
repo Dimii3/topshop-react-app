@@ -1,0 +1,6 @@
+.favouritesList {
+  padding: 1rem;
+  background-color: var(--color-grey);
+  margin-top: 1rem;
+  border: 1px solid #3333331d;
+}
