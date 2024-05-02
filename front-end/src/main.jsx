@@ -5,11 +5,12 @@ import "./styles/theme.css";
 import "./styles/globals.css";
 import MainPage from "./views/MainPage/MainPage.jsx";
 import Favourites from "./views/Favourites/Favourites.jsx";
+import Cart from "./views/Cart/Cart.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Favourites></Favourites>,
+    element: <Cart></Cart>,
   },
 ]);
 
