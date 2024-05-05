@@ -1,12 +1,11 @@
-.pages {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem;
-  font-size: 1.1rem;
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
 }
 
-.pages li {
-  cursor: pointer;
+.pagination li {
+    cursor: pointer;
 }

@@ -1,29 +1,29 @@
-import React from "react";
-import MainMenu from "../MainMenu/MainMenu";
-import Footer from "../Footer/Footer";
-import Logo from "../Logo/Logo";
-import CurrencySelector from "../CurrencySelector/CurrencySelector";
-import IconMenu from "../IconMenu/IconMenu";
-import TopBar from "../TopBar/TopBar";
-import CategoryMenu from "../CategoryMenu/CategoryMenu";
-import MainContent from "../MainContent/MainContent";
+import { Outlet } from "react-router-dom";
+import { CategoryMenu } from "../CategoryMenu/CategoryMenu";
+import { CurrencySelector } from "../CurrencySelector/CurrencySelector";
+import { Footer } from "../Footer/Footer";
+import { IconMenu } from "../IconMenu/IconMenu";
+import { Logo } from "../Logo/Logo";
+import { MainContent } from "../MainContent/MainContent";
+import { MainMenu } from "../MainMenu/MainMenu";
+import { TopBar } from "../TopBar/TopBar";
 
-export default function Layout({ children }) {
-  return (
-    <>
-      <MainContent>
-        <TopBar>
-          <MainMenu></MainMenu>
-          <Logo></Logo>
-          <div>
-            <CurrencySelector></CurrencySelector>
-            <IconMenu></IconMenu>
-          </div>
-        </TopBar>
-        <CategoryMenu></CategoryMenu>
-        {children}
-      </MainContent>
-      <Footer></Footer>
-    </>
-  );
+export function Layout() {
+    return (
+        <>
+            <MainContent>
+                <TopBar>
+                    <MainMenu />
+                    <Logo />
+                    <div>
+                        <CurrencySelector />
+                        <IconMenu />
+                    </div>
+                </TopBar>
+                <CategoryMenu />
+                <Outlet />
+            </MainContent>
+            <Footer />
+        </>
+    );
 }

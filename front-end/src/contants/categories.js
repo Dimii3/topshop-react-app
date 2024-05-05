@@ -1,7 +1,16 @@
 export const GENDERS = [
-  { categoryName: "Kobieta", path: "kobieta" },
-  { categoryName: "Mężczyzna", path: "mezczyzna" },
-  { categoryName: "Dziecko", path: "dziecko" },
+  {
+    categoryName: "Kobieta",
+    path: "kobieta",
+  },
+  {
+    categoryName: "Mężczyzna",
+    path: "mezczyzna",
+  },
+  {
+    categoryName: "Dziecko",
+    path: "dziecko",
+  },
 ];
 
 export const CATEGORIES = [
